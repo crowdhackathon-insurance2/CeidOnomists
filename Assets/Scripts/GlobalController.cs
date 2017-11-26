@@ -49,4 +49,8 @@ public class GlobalController : MonoBehaviour {
 	void onHitHouse(GameObject sender){
 		PlayerMove.accidents++;
 	}
+
+	void onWrongDirection(GameObject sender){
+		PlayerMove.timeGotWrongRoad++;
+	}
 }

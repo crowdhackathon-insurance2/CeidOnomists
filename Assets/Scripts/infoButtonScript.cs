@@ -13,4 +13,10 @@ public class infoButtonScript : MonoBehaviour {
         PanelManager.gameObject.SetActive(false);
         accidentsInfo.text = "";
     }
+
+    public void ExitGame()
+    {
+        Application.OpenURL("https://www.eurolife.gr/");
+        Application.Quit();
+    }
 }
